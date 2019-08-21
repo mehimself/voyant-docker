@@ -1,7 +1,7 @@
 https://{$DOMAIN_NAME} {
     root /voyant
 
-    proxy / voyant:8888 {
+    proxy / voyant:8787 {
         header_upstream Host {host}
         header_upstream X-Real-IP {remote}
         header_upstream X-Forwarded-Host {host}
