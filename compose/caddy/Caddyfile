@@ -1,4 +1,4 @@
-https://{$DOMAIN_NAME} {
+http://{$DOMAIN_NAME} {
     root /voyant
 
     proxy / voyant:8787 {
